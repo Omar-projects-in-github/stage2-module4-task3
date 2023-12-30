@@ -1,7 +1,5 @@
 package com.mjc.stage2.entity;
 
-import com.mjc.stage2.exception.HandlingException;
-
 public class SymbolLeaf extends AbstractTextComponent {
 
     private char value;

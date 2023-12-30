@@ -10,6 +10,6 @@ public class MaxPriceFilteringStrategy implements FilteringStrategy {
     private double maxPrice;
 
     public boolean filter(Product product) {
-        return maxPrice > product.getPrice();
+        return maxPrice >= product.getPrice();
     }
 }
